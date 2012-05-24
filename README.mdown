@@ -1,0 +1,21 @@
+# Introduction
+
+`Terminal.tmbundle` provides Terminal.app support for TextMate 2.
+
+
+## Open Terminal Window
+
+This command will open a terminal window, with the current path set to the current documents path.
+
+Optionally if this command finds a variable named `TERMINAL_CMD` defined in any of the `.tm_properties` files upstream from the current file, it will execute the command given.
+
+You can provide a window title in a `TERMINAL_TITLE` variable, this variable is also optional.
+
+As an example, if a `.tm_properties` file in the same directory as the currently displayed file or one of it's parent directories exists with this content:
+
+	TERMINAL_TITLE = 'My Remote Site'
+	TERMINAL_CMD   = 'ssh me@myRemoteSite.com'
+
+The command will then open a terminal window, set it's title to `My Remote Site` and execute the command `ssh me@myRemoteSite.com`.
+
+Note that each directory in your project can have a different `TERMINAL_CMD` set, allowing you to run different commands for each directory.

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>tregv-grkgzngr@ovgneg.pbz</string>
+	<key>contactName</key>
+	<string>Gerd Knops</string>
+	<key>description</key>
+	<string>Terminal.app support
+</string>
+	<key>name</key>
+	<string>Terminal</string>
+	<key>uuid</key>
+	<string>C5259427-E033-4B96-B1DA-4BC8DCDFA9BF</string>
+</dict>
+</plist>
